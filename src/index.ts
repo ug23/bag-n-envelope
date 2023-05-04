@@ -1,5 +1,5 @@
-import { Bag } from "./bag";
-import { Envelope } from "./envelope";
+import Bag from "./bag";
+import Envelope from "./envelope";
 
 export class Main {
   bag: Bag = new Bag();

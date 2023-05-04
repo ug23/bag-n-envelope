@@ -9,7 +9,7 @@ class Document {
   owner: string;
 }
 
-export class Bag {
+export default class Bag {
   constructor() {
     this.document = new Document();
   }

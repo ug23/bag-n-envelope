@@ -9,7 +9,7 @@ class Document {
   signers: string[];
 }
 
-export class Envelope {
+export default class Envelope {
   constructor() {
     this.document = new Document();
   }
